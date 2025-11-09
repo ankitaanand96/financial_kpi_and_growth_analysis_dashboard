@@ -1,24 +1,23 @@
-# Financial KPI & Growth Analysis Dashboard
+# 📊 Financial KPI & Growth Analysis Dashboard
 Developed a Power BI executive dashboard leveraging DAX calculations and time intelligence to analyze financial performance across geographies, time periods, and customer segments. Delivered actionable insights on peak profit months, most profitable countries, and high-priority product–segment combinations for strategic decision-making.
 
------------------------------------------------------------------------------
-# 📊 Financials Executive Dashboard (Power BI)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ## A step-by-step project to build an executive financials dashboard in Power BI.
 
-----------------------------------------------------------------------------
-# 🚀 Business Problem Statement
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 🚀 Business Problem Statement
 
-  ## A multinational company is analyzing its financial performance across multiple geographies, time periods, and customer segments. Management requires a comprehensive         executive dashboard to support data-driven decision-making by answering:
+  ### A multinational company is analyzing its financial performance across multiple geographies, time periods, and customer segments. Management requires a comprehensive         executive dashboard to support data-driven decision-making by answering:
 
-  ## - When has the company been most profitable? (Identify peak periods)
+  ### - When has the company been most profitable? (Identify peak periods)
 
-  ## - Where is the company performing best? (Profit by country/region)
+  ### - Where is the company performing best? (Profit by country/region)
 
-  ## - Which products and segments should be prioritized? (High-value product–segment combos)
+  ### - Which products and segments should be prioritized? (High-value product–segment combos)
 
------------------------------------------------------------------------------
-# 📂 Dataset
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 📂 Dataset
 
   File Used: [Financial Sample.xlsx] (https://github.com/ankitaanand96/executive_financials_dashboard/blob/main/Executive_Financials.xlsx)
 
@@ -26,15 +25,20 @@ Developed a Power BI executive dashboard leveraging DAX calculations and time in
 
   Period: 2013–2014
 
------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Tools & Technologies Used 
+## Tools & Technologies Used 
+
 - 🗄️ [E-R Diagram](https://github.com/ankitaanand96/executive_financials_dashboard/blob/main/Executive_Financials_Dashboard-5.png)
+  
 - 📗 Excel  
+
 - 🔄 Power Query
+
 - 📈 Power BI
------------------------------------------------------------------------------
-# 🛠️ Data Preparation
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 🛠️ Data Preparation
 
   - Units Sold → Converted into whole numbers.
 
@@ -46,8 +50,9 @@ Developed a Power BI executive dashboard leveraging DAX calculations and time in
 
   - Established a relationship: Financials[Date] → Calendar[Date].
 
------------------------------------------------------------------------------
-# 📐 DAX Calculations Used
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📐 DAX Calculations Used
 
   - Total Sales      = SUM ( Financials[Sales] )
     
@@ -63,8 +68,9 @@ ADDCOLUMNS (
     "Month", FORMAT ( [Date], "MMM" ),
     "Year-Month", FORMAT ( [Date], "YYYY-MMM" ))
     
-------------------------------------------------------------------------------------
-# 📊 Dashboard Visuals
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📊 Dashboard Visuals
 
   1. [KPI Cards] (https://github.com/ankitaanand96/executive_financials_dashboard/blob/main/Executive_Financials_Dashboard-1.png)
 
@@ -108,8 +114,9 @@ ADDCOLUMNS (
     
   *slicer to toggle between 2013 and 2014.*
 
-----------------------------------------------------------------------------
-# 📈 Executive Insights
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📈 Executive Insights
 
   - **Peak Profit Month: December 2014 (~2.03M).**
 
@@ -117,15 +124,17 @@ ADDCOLUMNS (
 
   - **Product–Segment Priority: Products like VTT and Paseo in Enterprise & Government segments generated consistently high sales and margins.**
 
-----------------------------------------------------------------------------
-# ✅ Deliverables
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## ✅ Deliverables
 
   - Power BI Report file: FIRSTNAME_LASTNAME-CAPSTONE-PROJECT.pbix
 
   - Dashboard screenshot: /images/dashboard.png
 
-----------------------------------------------------------------------------
-# 🔑 How to Reproduce
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 🔑 How to Reproduce
 
   - Clone/download this repo.
 
@@ -139,8 +148,9 @@ ADDCOLUMNS (
 
   - Save final PBIX as per naming convention.
 
-----------------------------------------------------------------------------
-# 📌 Learnings
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📌 Learnings
 
   - Applied data cleaning and transformation.
 
@@ -149,3 +159,5 @@ ADDCOLUMNS (
   - Created DAX measures to calculate KPIs and trends.
 
   - Designed an executive-ready dashboard with actionable insights.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
